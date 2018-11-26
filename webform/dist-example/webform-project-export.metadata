@@ -1,0 +1,94 @@
+{
+  "projectFiles": [
+  {
+    "title": "app.js",
+    "file":
+    {
+      "name": "app.js"
+    },
+    "active": false,
+    "localForm": false,
+    "remoteForm": false,
+    "fileType": "FILE"
+  },
+  {
+    "title": "country.html",
+    "file":
+    {
+      "name": "country.html"
+    },
+    "active": false,
+    "localForm": false,
+    "remoteForm": false,
+    "fileType": "FILE"
+  },
+  {
+    "title": "app.css",
+    "file":
+    {
+      "name": "app.css"
+    },
+    "active": false,
+    "localForm": false,
+    "remoteForm": false,
+    "fileType": "FILE"
+  },
+  {
+    "title": "manifest.js",
+    "file":
+    {
+      "name": "manifest.js"
+    },
+    "active": false,
+    "localForm": false,
+    "remoteForm": false,
+    "fileType": "FILE"
+  },
+  {
+    "title": "vendor.js",
+    "file":
+    {
+      "name": "vendor.js"
+    },
+    "active": false,
+    "localForm": false,
+    "remoteForm": false,
+    "fileType": "FILE"
+  },
+  {
+    "title": "empty.xml",
+    "file":
+    {
+      "name": "empty.xml"
+    },
+    "active": false,
+    "localForm": false,
+    "remoteForm": false,
+    "fileType": "FILE"
+  },  
+  {
+    "title": "schema.xsd",
+    "file":
+    {
+      "name": "schema.xsd"
+    },
+    "active": false,
+    "localForm": false,
+    "remoteForm": false,
+    "fileType": "FILE"
+  },    
+  {
+    "title": "art-15",
+    "file":
+    {
+      "name": "index.html"
+    },
+    "newXmlFileName": "art-15.xml",
+    "emptyInstanceUrl": "https://webq2test.eionet.europa.eu/download/project/art-15/file/empty.xml",
+    "xmlSchema": "http://dd.eionet.europa.eu/schemas/mmr-national-adaptation-actions/mmr-art15.xsd",
+    "active": true,
+    "localForm": true,
+    "remoteForm": true,
+    "fileType": "WEBFORM"
+  }]
+}

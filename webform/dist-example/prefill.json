@@ -1,0 +1,130 @@
+{
+  "prefill":
+  {
+    "@xmlns": "http://dd.eionet.europa.eu/namespaces/4",
+    "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
+    "@xsi:schemaLocation": "http://dd.eionet.europa.eu/namespaces/4 https://dd.eionet.europa.eu/schemas/mmr-national-adaptation-actions/mmr-art15.xsd",
+    "GI_mc": "HU",
+    "GI_Rep": "blabla",
+    "plf": {
+    	"Intro_pol": "intro",
+        "NAS": "nas",
+        "IMeans": "means",
+        "MRE": "mre",
+        "Review": "review"
+    },
+    "psaa": {
+		"Intro_sect": "intro",
+		"Sectors": "sectors",
+		"Mainstreaming": "mainstreamins"
+	},
+	"ivai": {
+		"Intro_ass": "intro ass",
+		"Obs_proj": "obs proj",
+		"IVA": "IVA_NAS",
+		"Research": "Research",
+		"Mon": "Mon"
+	},
+	"espcb": {
+		"Intro_stake": "Intro_stake",
+		"Governance": "Governance",
+		"Knowledge": "Knowledge",
+		"International": "International"
+	},
+	"con": {
+		"Org": "ord",
+		"contact": "contact",
+		"Ent": "ent",
+		"Name": "name",
+		"Title": "title",
+		"email": "email@server.com",
+		"phone": "phone",
+		"website": "https://website.com",
+		"address": "address"
+	},
+	"nas": [{
+		"NAS_Caption": "NAS_Caption_1",
+		"NAS_Year": "2018-10-31",
+		"NAS_Status": "Being_developed",
+		"NAS_Link": "http://NAS_Link_1.com"
+	},{
+		"NAS_Caption": "NAS_Caption_2",
+		"NAS_Year": "2018-10-31",
+		"NAS_Status": "Adopted",
+		"NAS_Link": "http://NAS_Link_2.com"
+	}],
+	"nap": [{
+		"NAP_Caption": "NAP_Caption_1",
+		"NAP_Year": "2017-10-31",
+		"NAP_Status": "Adopted",
+		"NAP_Link": "http://NAP_Link_1.com"
+	},{
+		"NAP_Caption": "NAP_Caption_2",
+		"NAP_Year": "2017-10-31",
+		"NAP_Status": "Being_developed",
+		"NAP_Link": "http://NAP_Link_2.com"
+	}],
+	"iva": [{
+		"IVA_Caption": "IVA_Caption_1",
+		"IVA_Year": "2018-10-31",
+		"IVA_Status": "Not_yet_planned",
+		"IVA_NAS": "yes",
+		"IVA_Link": "http://IVA_Link_1.com"
+	},{
+		"IVA_Caption": "IVA_Caption_2",
+		"IVA_Year": "2018-10-31",
+		"IVA_Status": "Being_developed",
+		"IVA_NAS": "no",
+		"IVA_Link": "http://IVA_Link_2.com"
+	}],
+	"rpr": [{
+		"RPR_Caption": "RPR_Caption_1",
+		"RPR_Status": "Currently_being_undertaken",
+		"RPR_Start": "2017-10-31",
+		"RPR_End": "2018-10-31",
+		"RPR_Link": "http://RPR_Link_1.com"
+	},{
+		"RPR_Caption": "RPR_Caption_2",
+		"RPR_Status": "Completed",
+		"RPR_Start": "2017-10-31",
+		"RPR_End": "2018-10-31",
+		"RPR_Link": "http://RPR_Link_2.com"
+	}],
+	"met": [{
+		"MET_Caption": "MET_Caption_1",
+		"MET_Status": "Being_developed",
+		"MET_Link": "http://MET_Link_1.com"
+	},{
+		"MET_Caption": "MET_Caption_2",
+		"MET_Status": "Established",
+		"MET_Link": "http://MET_Link_2.com"
+	}],
+	"cps": [{
+		"CPS_Caption": "CPS_Caption_1",
+		"CPS_Status": "Being_developed",
+		"CPS_Link": "http://CPS_Link_1.com"
+	},{
+		"CPS_Caption": "CPS_Caption_2",
+		"CPS_Status": "Established",
+		"CPS_Link": "http://CPS_Link_2.com"
+	}],
+	"wpp": [{
+		"WPP_Caption": "WPP_Caption_1",
+		"WPP_Status": "Being_developed",
+		"WPP_Link": "http://WPP_Link_1.com"
+	},{
+		"WPP_Caption": "WPP_Caption_2",
+		"WPP_Status": "Established",
+		"WPP_Link": "http://WPP_Link_2.com"
+	}],
+	"mim": [{
+		"MIM_Caption": "MIM_Caption_1",
+		"MIM_Status": "Being_developed",
+		"MIM_Link": "http://MIM_Link_1.com"
+	},{
+		"MIM_Caption": "MIM_Caption_2",
+		"MIM_Status": "Established",
+		"MIM_Link": "http://MIM_Link_2.com"
+	}]
+  }
+}

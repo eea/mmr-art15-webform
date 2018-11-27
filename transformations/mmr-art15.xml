@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MMR_ART_15 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://dd.eionet.europa.eu/namespaces/4 https://dd.eionet.europa.eu/schemas/mmr-national-adaptation-actions/mmr-art15.xsd">
+	<GI_mc>AT</GI_mc>
+	<GI_Rep>reporter</GI_Rep>
+	<plf>
+		<Intro_pol>intro</Intro_pol>
+		<NAS>Adaptation Strategies</NAS>
+		<IMeans>Implementation means</IMeans>
+		<MRE>Monitoring, reporting and evaluation</MRE>
+		<Review>Schedule and planned review/revision</Review>
+	</plf>
+	<psaa>
+		<Intro_sect>Introduction</Intro_sect>
+		<Sectors>Sectors addressed in NAS/NAP</Sectors>
+		<Mainstreaming>Mainstreaming of adaptation</Mainstreaming>
+	</psaa>
+	<ivai>
+		<Intro_ass>Introduction</Intro_ass>
+		<Obs_proj>Observations and Projections</Obs_proj>
+		<IVA>Impact and Vulnerability Assessment</IVA>
+		<Research>Research</Research>
+		<Mon>Monitoring progress</Mon>
+	</ivai>
+	<espcb>
+		<Intro_stake>Introduction</Intro_stake>
+		<Governance>Governance</Governance>
+		<Knowledge>Knowledge</Knowledge>
+		<International>International dimensions</International>
+	</espcb>
+	<con>
+		<Org>Organisation</Org>
+		<contact>Contact description</contact>
+		<Ent>Entity within the organisation</Ent>
+		<Name>Name of contact point</Name>
+		<Title>Title or function of contact point</Title>
+		<email>email@email.com</email>
+		<phone>+323009393</phone>
+		<website>https://tes.com</website>
+		<address>my address</address>
+	</con>
+	<nas>
+		<NAS_Caption>nas1</NAS_Caption>
+		<NAS_Year>2018-11-14</NAS_Year>
+		<NAS_Status>Adopted</NAS_Status>
+		<NAS_Link>https://nas1.com</NAS_Link>
+	</nas>
+	<nas>
+		<NAS_Caption>nas2</NAS_Caption>
+		<NAS_Year>2018-07-25</NAS_Year>
+		<NAS_Status>Adopted</NAS_Status>
+		<NAS_Link>https://nas2.com</NAS_Link>
+	</nas>
+	<nap>
+		<NAP_Caption>nap1</NAP_Caption>
+		<NAP_Year>2018-11-19</NAP_Year>
+		<NAP_Status>Being_developed</NAP_Status>
+		<NAP_Link>https://nap1.com</NAP_Link>
+	</nap>
+	<nap>
+		<NAP_Caption>nap2</NAP_Caption>
+		<NAP_Year>2018-11-19</NAP_Year>
+		<NAP_Status>Adopted</NAP_Status>
+		<NAP_Link>https://nap2.com</NAP_Link>
+	</nap>
+	<iva>
+		<IVA_Caption>iva1</IVA_Caption>
+		<IVA_Year></IVA_Year>
+		<IVA_Status>Not_yet_planned</IVA_Status>
+		<IVA_NAS>yes</IVA_NAS>
+		<IVA_Link>https://iva1.com</IVA_Link>
+	</iva>
+	<iva>
+		<IVA_Caption>iva2</IVA_Caption>
+		<IVA_Year>2018-11-19</IVA_Year>
+		<IVA_Status>Being_developed</IVA_Status>
+		<IVA_NAS>no</IVA_NAS>
+		<IVA_Link>https://iva2.com</IVA_Link>
+	</iva>
+	<rpr>
+		<PRP_Caption>prp1</PRP_Caption>
+		<RPR_Status>Completed</RPR_Status>
+		<RPR_Start>2017-06-13</RPR_Start>
+		<RPR_End>2018-11-13</RPR_End>
+		<RPR_Link>https://prp1.com</RPR_Link>
+	</rpr>
+	<rpr>
+		<PRP_Caption>prp2</PRP_Caption>
+		<RPR_Status>Completed</RPR_Status>
+		<RPR_Start>2016-09-13</RPR_Start>
+		<RPR_End>2018-11-12</RPR_End>
+		<RPR_Link>https://prp2.com</RPR_Link>
+	</rpr>
+	<met>
+		<MET_Caption>met1</MET_Caption>
+		<MET_Status>Being_developed</MET_Status>
+		<MET_Link>https://met1.com</MET_Link>
+	</met>
+	<met>
+		<MET_Caption>met2</MET_Caption>
+		<MET_Status>Established</MET_Status>
+		<MET_Link>https://met2.com</MET_Link>
+	</met>
+	<cps>
+		<CPS_Caption>cps1</CPS_Caption>
+		<CPS_Status>Being_developed</CPS_Status>
+		<CPS_Link>https://cps1.com</CPS_Link>
+	</cps>
+	<wpp>
+		<WPP_Caption>cciva1</WPP_Caption>
+		<WPP_Status>Being_developed</WPP_Status>
+		<WPP_Link>https://cciva1.com</WPP_Link>
+	</wpp>
+	<wpp>
+		<WPP_Caption>cciva2</WPP_Caption>
+		<WPP_Status>Established</WPP_Status>
+		<WPP_Link>https://cciva2.com</WPP_Link>
+	</wpp>
+	<mim>
+		<MIM_Caption>mimn1</MIM_Caption>
+		<MIM_Status>Being_developed</MIM_Status>
+		<MIM_Link>https://mimn1.com</MIM_Link>
+	</mim>
+	<mim>
+		<MIM_Caption>mimn2</MIM_Caption>
+		<MIM_Status>Established</MIM_Status>
+		<MIM_Link>https://mimn2.com</MIM_Link>
+	</mim>
+</MMR_ART_15>

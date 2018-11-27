@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+	<xs:import namespace="http://www.w3.org/XML/1998/namespace" schemaLocation="http://www.w3.org/2009/01/xml.xsd"/>
+	<xs:element name="MMR_ART_15">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="MMR_PAM" maxOccurs="unbounded">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="GI_mc" type="xs:string"/>
+							<xs:element name="GI_Rep" type="xs:string"/>
+
+							<xs:element name="plf">
+										<xs:element name="Intro_pol" type="xs:string"/>
+										<xs:element name="NAS" type="xs:string"/>
+										<xs:element name="IMeans" type="xs:string"/>
+										<xs:element name="MRE" type="xs:string"/>
+										<xs:element name="Review" type="xs:string"/>
+							</xs:element>
+
+							<xs:element name="psaa">
+										<xs:element name="Intro_sect" type="xs:string"/>
+										<xs:element name="Sectors" type="xs:string"/>
+										<xs:element name="Mainstreaming" type="xs:string"/>
+							</xs:element>
+
+							<xs:element name="ivai">
+										<xs:element name="Intro_ass" type="xs:string"/>
+										<xs:element name="Obs_proj" type="xs:string"/>
+										<xs:element name="IVA" type="xs:string"/>
+										<xs:element name="Research" type="xs:string"/>
+										<xs:element name="Mon" type="xs:string"/>
+							</xs:element>
+
+
+							<xs:element name="con">
+										<xs:element name="Org" type="xs:string"/>
+										<xs:element name="contact" type="xs:string"/>
+										<xs:element name="Ent" type="xs:string"/>
+										<xs:element name="Name" type="xs:string"/>
+										<xs:element name="Title" type="xs:string"/>
+										<xs:element name="email" type="xs:string"/>
+										<xs:element name="phone" type="xs:string"/>
+										<xs:element name="website" type="xs:string"/>
+										<xs:element name="address" type="xs:string"/>
+							</xs:element>
+
+							<xs:element name="nas" maxOccurs="unbounded">
+										<xs:element name="NAS_Caption" type="xs:string"/>
+										<xs:element name="NAS_Year" type="xs:string"/>
+										<xs:element name="NAS_Status" type="xs:string"/>
+										<xs:element name="NAS_Link" type="xs:string"/>
+							</xs:element>
+
+							<xs:element name="nap" maxOccurs="unbounded">
+										<xs:element name="NAP_Caption" type="xs:string"/>
+										<xs:element name="NAP_Year" type="xs:string"/>
+										<xs:element name="NAP_Status" type="xs:string"/>
+										<xs:element name="NAP_Link" type="xs:string"/>
+							</xs:element>
+
+							<xs:element name="iva" maxOccurs="unbounded">
+										<xs:element name="IVA_Caption" type="xs:string"/>
+										<xs:element name="IVA_Year" type="xs:string"/>
+										<xs:element name="IVA_Status" type="xs:string"/>
+										<xs:element name="IVA_NAS" type="xs:string"/>
+										<xs:element name="IVA_Link" type="xs:string"/>
+							</xs:element>
+
+							<xs:element name="rpr" maxOccurs="unbounded">
+										<xs:element name="RPR_Caption" type="xs:string"/>
+										<xs:element name="RPR_Status" type="xs:string"/>
+										<xs:element name="RPR_Start" type="xs:string"/>
+										<xs:element name="RPR_End" type="xs:string"/>
+										<xs:element name="RPR_Link" type="xs:string"/>
+							</xs:element>
+
+							<xs:element name="met" maxOccurs="unbounded">
+										<xs:element name="MET_Caption" type="xs:string"/>
+										<xs:element name="MET_Status" type="xs:string"/>
+										<xs:element name="MET_Link" type="xs:string"/>
+							</xs:element>
+
+							<xs:element name="cps" maxOccurs="unbounded">
+										<xs:element name="CPS_Caption" type="xs:string"/>
+										<xs:element name="CPS_Status" type="xs:string"/>
+										<xs:element name="CPS_Link" type="xs:string"/>
+							</xs:element>
+
+							<xs:element name="wpp" maxOccurs="unbounded">
+										<xs:element name="WPP_Caption" type="xs:string"/>
+										<xs:element name="WPP_Status" type="xs:string"/>
+										<xs:element name="WPP_Link" type="xs:string"/>
+							</xs:element>
+
+							<xs:element name="mim" maxOccurs="unbounded">
+										<xs:element name="MIM_Caption" type="xs:string"/>
+										<xs:element name="MIM_Status" type="xs:string"/>
+										<xs:element name="MIM_Link" type="xs:string"/>
+							</xs:element>
+
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+			<xs:attribute ref="xml:lang" use="required"/>
+			<xs:attribute name="labelLanguage" type="xs:string" default="en"/>
+		</xs:complexType>
+		<xs:key name="testNumber">
+			<xs:selector xpath="MMR_ART_15"/>
+			<xs:field xpath="id"/>
+		</xs:key>
+	</xs:element>
+</xs:schema>

@@ -6,7 +6,7 @@ var form = {
         {
           name: 'GI_mc',
           type: 'select',
-          label: 'Member country',
+          label: 'EU Member State / EEA member country',
           required: false,
           options: [
           {value: 'AT', text: 'AT'},
@@ -51,8 +51,8 @@ var form = {
           label: 'Reporter',
           required: true,
           selected: '',
-          rows: 10, 
-          maxlength: 1000
+          rows: 1, 
+          maxlength: 10
         }
       ],
     }
@@ -72,10 +72,10 @@ var form = {
         {
           name: 'NAS',
           type: 'textarea',
-          label: 'Adaptation Strategies',
+          label: 'Adaptation Strategies and Plans',
           selected: '',
           rows: 12, 
-          maxlength: 3000
+          maxlength: 6000
         },
         {
           name: 'IMeans',
@@ -300,7 +300,7 @@ var form = {
       table_label: 'National adaptation strategy',
       articles: [{
         article_title: {
-          label: 'Nas Name',
+          label: 'NAS Name',
           type: 'textarea',
           selected: '',
           name: 'NAS_Caption',
@@ -339,7 +339,7 @@ var form = {
       table_label: 'National adaptation plan',
       articles: [{
         article_title: {
-          label: 'Nap Name',
+          label: 'NAP Name',
           type: 'textarea',
           name: 'NAP_Caption',
           selected: '',
@@ -347,7 +347,7 @@ var form = {
           maxlength: 200
         },
         article_items: [{
-          label: 'Start Year',
+          label: 'Year of adoption',
           description: '',
           type: 'date',
           name: 'NAP_Year',
@@ -435,7 +435,7 @@ var form = {
       table_label: 'Research Programmes',
       articles: [{
         article_title: {
-          label: 'RPR Name',
+          label: 'Research programme name',
           type: 'textarea',
           name: 'PRP_Caption',
           selected: '',

@@ -5,7 +5,7 @@
     right: 5px;" @click="doStuff">Save</b-btn>
     <b-btn variant="danger" style="position: absolute;
     top: -100px;
-    right: 75px;" @click="exitForm">CDR</b-btn>
+    right: 75px;" @click="exitForm">Close webform</b-btn>
     <b-alert :show="dismissCountDown"
        variant="success"
        @dismissed="dismissCountDown=0"
@@ -105,10 +105,11 @@ export default {
 
   methods: {
     exitForm(){
-      window.location.replace(envelope)
+      //window.location.replace(envelope)
+      window.location.replace('http://webforms.eionet.europa.eu')
     },
 
-         showAlert () {
+    showAlert () {
       console.log('showingalert')
       this.dismissCountDown = this.dismissSecs
     },

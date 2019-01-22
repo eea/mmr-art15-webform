@@ -6,7 +6,7 @@ var formTemplate = {
         {
           name: 'GI_mc',
           type: 'select',
-          label: 'Member country',
+          label: 'EU Member State / EEA member country',
           required: true,
           options: [
           {value: 'AT', text: 'AT'},
@@ -50,8 +50,8 @@ var formTemplate = {
           type: 'textarea',
           label: 'Reporter',
           selected: '',
-          rows: 10, 
-          maxlength: 1000,
+          rows: 1, 
+          maxlength: 10,
           required: true,
         }
       ],
@@ -72,9 +72,9 @@ var formTemplate = {
         {
           name: 'NAS',
           type: 'textarea',
-          label: 'Adaptation Strategies',
+          label: 'Adaptation Strategies and Plans',
           rows: 12, 
-          maxlength: 3000
+          maxlength: 6000
         },
         {
           name: 'IMeans',
@@ -286,7 +286,7 @@ var formTemplate = {
       table_label: 'National adaptation strategy',
       articles: [{
         article_title: {
-          label: 'Nas Name',
+          label: 'NAS Name',
           type: 'textarea',
           selected: '',
           name: 'NAS_Caption',
@@ -324,7 +324,7 @@ var formTemplate = {
       table_label: 'National adaptation plan',
       articles: [{
         article_title: {
-          label: 'Nap Name',
+          label: 'NAP Name',
           type: 'textarea',
           name: 'NAP_Caption',
           selected: '',
@@ -332,7 +332,7 @@ var formTemplate = {
           maxlength: 200
         },
         article_items: [{
-          label: 'Start Year',
+          label: 'Year of adoption',
           description: '',
           type: 'date',
           name: 'NAP_Year',
@@ -417,7 +417,7 @@ var formTemplate = {
       table_label: 'Research Programmes',
       articles: [{
         article_title: {
-          label: 'RPR Name',
+          label: 'Research programme name',
           type: 'textarea',
           name: 'PRP_Caption',
           selected: '',

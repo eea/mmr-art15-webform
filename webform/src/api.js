@@ -85,7 +85,7 @@ let testCompanyId = getParameterByName('testCompanyId');
       if(isTestSession){
         return fetch('http://localhost:8080/static/country.html')
       }else {
-        return fetch('https://webq2test.eionet.europa.eu/download/project/art-15/file/country.html'); 
+        return fetch('https://webforms.eionet.europa.eu/download/project/mmr-art15/file/country.html'); 
         //return fetch(envelope + '/country_name')
       }
     }

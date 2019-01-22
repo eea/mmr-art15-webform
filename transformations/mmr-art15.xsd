@@ -1,144 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
-  <xs:element name="MMR_ART_15">
-    <xs:complexType>
-      <xs:choice maxOccurs="unbounded" minOccurs="0">
-        <xs:element type="xs:string" name="GI_mc"/>
-        <xs:element type="xs:string" name="GI_Rep"/>
-        <xs:element name="plf">
-          <xs:complexType>
-            <xs:sequence>
-              <xs:element type="xs:string" name="Intro_pol"/>
-              <xs:element type="xs:string" name="NAS"/>
-              <xs:element type="xs:string" name="IMeans"/>
-              <xs:element type="xs:string" name="MRE"/>
-              <xs:element type="xs:string" name="Review"/>
-            </xs:sequence>
-          </xs:complexType>
-        </xs:element>
-        <xs:element name="psaa">
-          <xs:complexType>
-            <xs:sequence>
-              <xs:element type="xs:string" name="Intro_sect"/>
-              <xs:element type="xs:string" name="Sectors"/>
-              <xs:element type="xs:string" name="Mainstreaming"/>
-            </xs:sequence>
-          </xs:complexType>
-        </xs:element>
-        <xs:element name="ivai">
-          <xs:complexType>
-            <xs:sequence>
-              <xs:element type="xs:string" name="Intro_ass"/>
-              <xs:element type="xs:string" name="Obs_proj"/>
-              <xs:element type="xs:string" name="IVA"/>
-              <xs:element type="xs:string" name="Research"/>
-              <xs:element type="xs:string" name="Mon"/>
-            </xs:sequence>
-          </xs:complexType>
-        </xs:element>
-        <xs:element name="espcb">
-          <xs:complexType>
-            <xs:sequence>
-              <xs:element type="xs:string" name="Intro_stake"/>
-              <xs:element type="xs:string" name="Governance"/>
-              <xs:element type="xs:string" name="Knowledge"/>
-              <xs:element type="xs:string" name="International"/>
-            </xs:sequence>
-          </xs:complexType>
-        </xs:element>
-        <xs:element name="con">
-          <xs:complexType>
-            <xs:sequence>
-              <xs:element type="xs:string" name="Org"/>
-              <xs:element type="xs:string" name="contact"/>
-              <xs:element type="xs:string" name="Ent"/>
-              <xs:element type="xs:string" name="Name"/>
-              <xs:element type="xs:string" name="Title"/>
-              <xs:element type="xs:string" name="email"/>
-              <xs:element type="xs:int" name="phone"/>
-              <xs:element type="xs:string" name="website"/>
-              <xs:element type="xs:string" name="address"/>
-            </xs:sequence>
-          </xs:complexType>
-        </xs:element>
-        <xs:element name="nas" maxOccurs="unbounded" minOccurs="0">
-          <xs:complexType>
-            <xs:sequence>
-              <xs:element type="xs:string" name="NAS_Caption"/>
-              <xs:element type="xs:date" name="NAS_Year"/>
-              <xs:element type="xs:string" name="NAS_Status"/>
-              <xs:element type="xs:string" name="NAS_Link"/>
-            </xs:sequence>
-          </xs:complexType>
-        </xs:element>
-        <xs:element name="nap" maxOccurs="unbounded" minOccurs="0">
-          <xs:complexType>
-            <xs:sequence>
-              <xs:element type="xs:string" name="NAP_Caption"/>
-              <xs:element type="xs:date" name="NAP_Year"/>
-              <xs:element type="xs:string" name="NAP_Status"/>
-              <xs:element type="xs:string" name="NAP_Link"/>
-            </xs:sequence>
-          </xs:complexType>
-        </xs:element>
-        <xs:element name="iva" maxOccurs="unbounded" minOccurs="0">
-          <xs:complexType>
-            <xs:sequence>
-              <xs:element type="xs:string" name="IVA_Caption"/>
-              <xs:element type="xs:string" name="IVA_Year"/>
-              <xs:element type="xs:string" name="IVA_Status"/>
-              <xs:element type="xs:string" name="IVA_NAS"/>
-              <xs:element type="xs:string" name="IVA_Link"/>
-            </xs:sequence>
-          </xs:complexType>
-        </xs:element>
-        <xs:element name="rpr" maxOccurs="unbounded" minOccurs="0">
-          <xs:complexType>
-            <xs:sequence>
-              <xs:element type="xs:string" name="PRP_Caption"/>
-              <xs:element type="xs:string" name="RPR_Status"/>
-              <xs:element type="xs:date" name="RPR_Start"/>
-              <xs:element type="xs:date" name="RPR_End"/>
-              <xs:element type="xs:string" name="RPR_Link"/>
-            </xs:sequence>
-          </xs:complexType>
-        </xs:element>
-        <xs:element name="met" maxOccurs="unbounded" minOccurs="0">
-          <xs:complexType>
-            <xs:sequence>
-              <xs:element type="xs:string" name="MET_Caption"/>
-              <xs:element type="xs:string" name="MET_Status"/>
-              <xs:element type="xs:string" name="MET_Link"/>
-            </xs:sequence>
-          </xs:complexType>
-        </xs:element>
-        <xs:element name="cps">
-          <xs:complexType>
-            <xs:sequence>
-              <xs:element type="xs:string" name="CPS_Caption"/>
-              <xs:element type="xs:string" name="CPS_Status"/>
-              <xs:element type="xs:string" name="CPS_Link"/>
-            </xs:sequence>
-          </xs:complexType>
-        </xs:element>
-        <xs:element name="wpp">
-          <xs:complexType>
-            <xs:sequence>
-              <xs:element type="xs:string" name="WPP_Caption"/>
-              <xs:element type="xs:string" name="WPP_Status"/>
-              <xs:element type="xs:string" name="WPP_Link"/>
-            </xs:sequence>
-          </xs:complexType>
-        </xs:element>
-        <xs:element name="mim" maxOccurs="unbounded" minOccurs="0">
-          <xs:complexType>
-            <xs:sequence>
-              <xs:element type="xs:string" name="MIM_Caption"/>
-              <xs:element type="xs:string" name="MIM_Status"/>
-              <xs:element type="xs:string" name="MIM_Link"/>
-            </xs:sequence>
-          </xs:complexType>
-        </xs:element>
-      </xs:choice>
-    </xs:complexType>
-  </xs:element>
+  <xs:element name="MMR_ART_15" type="MMR_ART_15Type"/>
+  <xs:complexType name="plfType">
+    <xs:sequence>
+      <xs:element type="xs:string" name="Intro_pol"/>
+      <xs:element type="xs:string" name="NAS"/>
+      <xs:element type="xs:string" name="IMeans"/>
+      <xs:element type="xs:string" name="MRE"/>
+      <xs:element type="xs:string" name="Review"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="psaaType">
+    <xs:sequence>
+      <xs:element type="xs:string" name="Intro_sect"/>
+      <xs:element type="xs:string" name="Sectors"/>
+      <xs:element type="xs:string" name="Mainstreaming"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="ivaiType">
+    <xs:sequence>
+      <xs:element type="xs:string" name="Intro_ass"/>
+      <xs:element type="xs:string" name="Obs_proj"/>
+      <xs:element type="xs:string" name="IVA"/>
+      <xs:element type="xs:string" name="Research"/>
+      <xs:element type="xs:string" name="Mon"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="espcbType">
+    <xs:sequence>
+      <xs:element type="xs:string" name="Intro_stake"/>
+      <xs:element type="xs:string" name="Governance"/>
+      <xs:element type="xs:string" name="Knowledge"/>
+      <xs:element type="xs:string" name="International"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="conType">
+    <xs:sequence>
+      <xs:element type="xs:string" name="Org"/>
+      <xs:element type="xs:string" name="contact"/>
+      <xs:element type="xs:string" name="Ent"/>
+      <xs:element type="xs:string" name="Name"/>
+      <xs:element type="xs:string" name="Title"/>
+      <xs:element type="xs:string" name="email"/>
+      <xs:element type="xs:string" name="phone"/>
+      <xs:element type="xs:string" name="website"/>
+      <xs:element type="xs:string" name="address"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="nasType">
+    <xs:sequence>
+      <xs:element type="xs:string" name="NAS_Caption"/>
+      <xs:element type="xs:date" name="NAS_Year"/>
+      <xs:element name="NAS_Status">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="Being_developed"/>
+            <xs:enumeration value="Adopted"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element type="xs:string" name="NAS_Link"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="napType">
+    <xs:sequence>
+      <xs:element type="xs:string" name="NAP_Caption"/>
+      <xs:element type="xs:string" name="NAP_Year"/>
+      <xs:element name="NAP_Status">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="Being_developed"/>
+            <xs:enumeration value="Adopted"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element type="xs:string" name="NAP_Link"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="ivaType">
+    <xs:sequence>
+      <xs:element type="xs:string" name="IVA_Caption"/>
+      <xs:element type="xs:string" name="IVA_Year"/>
+      <xs:element name="IVA_Status">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="Not_yet_planned"/>
+            <xs:enumeration value="Being_developed"/>
+            <xs:enumeration value="Ongoing_in_research_programmes"/>
+            <xs:enumeration value="Completed"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element name="IVA_NAS">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="yes"/>
+            <xs:enumeration value="no"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element type="xs:string" name="IVA_Link"/>
+      <xs:element name="IVA_Ass">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="Impact"/>
+            <xs:enumeration value="Vulnerability"/>
+            <xs:enumeration value="Adaptation"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="rprType">
+    <xs:sequence>
+      <xs:element type="xs:string" name="PRP_Caption"/>
+      <xs:element name="RPR_Status">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="Currently_being_undertaken"/>
+            <xs:enumeration value="Completed"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element type="xs:date" name="RPR_Start"/>
+      <xs:element type="xs:date" name="RPR_End"/>
+      <xs:element type="xs:string" name="RPR_Link"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="metType">
+    <xs:sequence>
+      <xs:element type="xs:string" name="MET_Caption"/>
+      <xs:element name="MET_Status">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="Being_developed"/>
+            <xs:enumeration value="Established"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element type="xs:string" name="MET_Link"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="cpsType">
+    <xs:sequence>
+      <xs:element type="xs:string" name="CPS_Caption"/>
+      <xs:element name="CPS_Status">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="Being_developed"/>
+            <xs:enumeration value="Established"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element type="xs:string" name="CPS_Link"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="wppType">
+    <xs:sequence>
+      <xs:element type="xs:string" name="WPP_Caption"/>
+      <xs:element name="WPP_Status">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="Being_developed"/>
+            <xs:enumeration value="Established"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element type="xs:string" name="WPP_Link"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="mimType">
+    <xs:sequence>
+      <xs:element type="xs:string" name="MIM_Caption"/>
+      <xs:element name="MIM_Status">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="Being_developed"/>
+            <xs:enumeration value="Ongoing_in_research_programmes"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element type="xs:string" name="MIM_Link"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="MMR_ART_15Type">
+    <xs:sequence>
+      <xs:element name="GI_mc">
+        <xs:simpleType>
+          <xs:restriction base="xs:string">
+            <xs:enumeration value="AT"/>
+            <xs:enumeration value="BE"/>
+            <xs:enumeration value="BG"/>
+            <xs:enumeration value="CH"/>
+            <xs:enumeration value="CY"/>
+            <xs:enumeration value="CZ"/>
+            <xs:enumeration value="DE"/>
+            <xs:enumeration value="DK"/>
+            <xs:enumeration value="EE"/>
+            <xs:enumeration value="ES"/>
+            <xs:enumeration value="FI"/>
+            <xs:enumeration value="GB"/>
+            <xs:enumeration value="GR"/>
+            <xs:enumeration value="HR"/>
+            <xs:enumeration value="HU"/>
+            <xs:enumeration value="IE"/>
+            <xs:enumeration value="IS"/>
+            <xs:enumeration value="IT"/>
+            <xs:enumeration value="LI"/>
+            <xs:enumeration value="LT"/>
+            <xs:enumeration value="LU"/>
+            <xs:enumeration value="LV"/>
+            <xs:enumeration value="MT"/>
+            <xs:enumeration value="NL"/>
+            <xs:enumeration value="NO"/>
+            <xs:enumeration value="PL"/>
+            <xs:enumeration value="PT"/>
+            <xs:enumeration value="RO"/>
+            <xs:enumeration value="SE"/>
+            <xs:enumeration value="SK"/>
+            <xs:enumeration value="TR"/>
+          </xs:restriction>
+        </xs:simpleType>
+      </xs:element>
+      <xs:element type="xs:string" name="GI_Rep"/>
+      <xs:element type="plfType" name="plf"/>
+      <xs:element type="psaaType" name="psaa"/>
+      <xs:element type="ivaiType" name="ivai"/>
+      <xs:element type="espcbType" name="espcb"/>
+      <xs:element type="conType" name="con"/>
+      <xs:element type="nasType" name="nas" maxOccurs="unbounded" minOccurs="0"/>
+      <xs:element type="napType" name="nap" maxOccurs="unbounded" minOccurs="0"/>
+      <xs:element type="ivaType" name="iva" maxOccurs="unbounded" minOccurs="0"/>
+      <xs:element type="rprType" name="rpr" maxOccurs="unbounded" minOccurs="0"/>
+      <xs:element type="metType" name="met" maxOccurs="unbounded" minOccurs="0"/>
+      <xs:element type="cpsType" name="cps" maxOccurs="unbounded" minOccurs="0"/>
+      <xs:element type="wppType" name="wpp" maxOccurs="unbounded" minOccurs="0"/>
+      <xs:element type="mimType" name="mim" maxOccurs="unbounded" minOccurs="0"/>
+    </xs:sequence>
+  </xs:complexType>
 </xs:schema>

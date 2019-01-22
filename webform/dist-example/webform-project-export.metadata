@@ -67,10 +67,10 @@
     "fileType": "FILE"
   },  
   {
-    "title": "schema.xsd",
+    "title": "mmr-art15.xsd",
     "file":
     {
-      "name": "schema.xsd"
+      "name": "mmr-art15.xsd"
     },
     "active": false,
     "localForm": false,
@@ -78,13 +78,13 @@
     "fileType": "FILE"
   },    
   {
-    "title": "art-15",
+    "title": "National adaptation actions (Art15)",
     "file":
     {
       "name": "index.html"
     },
-    "newXmlFileName": "art-15.xml",
-    "emptyInstanceUrl": "https://webq2test.eionet.europa.eu/download/project/art-15/file/empty.xml",
+    "newXmlFileName": "mmr-art-15.xml",
+    "emptyInstanceUrl": "https://webforms.eionet.europa.eu/download/project/mmr-art15/file/empty.xml",
     "xmlSchema": "http://dd.eionet.europa.eu/schemas/mmr-national-adaptation-actions/mmr-art15.xsd",
     "active": true,
     "localForm": true,

@@ -105,8 +105,7 @@ export default {
 
   methods: {
     exitForm(){
-      //window.location.replace(envelope)
-      window.location.replace('http://webforms.eionet.europa.eu')
+      window.location.replace(envelope)
     },
 
     showAlert () {

@@ -2,7 +2,7 @@ var emptyInstance = {
   "MMR_ART_15":
   {
     "@xmlns:xsi": "http://www.w3.org/2001/XMLSchema-instance",
-    "@xsi:schemaLocation": "http://dd.eionet.europa.eu/namespaces/4 https://dd.eionet.europa.eu/schemas/mmr-national-adaptation-actions/mmr-art15.xsd",
+    "@xsi:schemaLocation": "http://dd.eionet.europa.eu/namespaces/4 http://dd.eionet.europa.eu/schemas/mmr-national-adaptation-actions/mmr-art15.xsd",
     "GI_mc": "",
     "GI_Rep": "",
     "plf": {
